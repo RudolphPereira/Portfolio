@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.5rem; }
+
+h4,
+h5 {
+  font-size: 1rem; }
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 1.8rem; }
+
+a {
+  text-decoration: none;
+  color: #2c2c2c; }
+
+ul {
+  list-style: none; }
+
+.header {
+  width: 95%;
+  margin: 0 0 0 auto; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+  min-height: 15vh;
+  flex-wrap: wrap; }
+  .nav__logo--container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 10rem; }
+  .nav__logo--title {
+    margin: 1.5rem; }
+  .nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 20rem; }
+    .nav__list .active {
+      background: #2c2c2c;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 2rem; }
+
+.intro {
+  width: 90%;
+  min-height: 85vh;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; }
+  .intro__text {
+    width: 50%; }
+  .intro__images {
+    width: 44%; }
+  .intro__name {
+    font-size: 4rem;
+    padding-top: 2rem; }
+  .intro__job {
+    font-size: 3rem;
+    padding: 2rem 0; }
+  .intro__desc {
+    width: 90%;
+    padding-top: 1rem;
+    color: #2c2c2c; }
+  .intro__social {
+    padding-top: 2.5rem; }
+  .intro__social--github {
+    margin-right: 1.2rem;
+    width: 3.5rem; }
+  .intro__social--linkedin {
+    width: 3.5rem; }
+  .intro__splash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1; }
+
+#right-leaf {
+  animation: plant 1.5s ease infinite alternate 0.5s; }
+
+#left-leaf {
+  animation: plant 1.5s ease infinite alternate; }
+
+@keyframes plant {
+  from {
+    transform: translateY(0%); }
+  to {
+    transform: translateY(-30%); } }
+
+#me {
+  animation: me 1s ease infinite alternate;
+  transform-origin: bottom; }
+
+@keyframes me {
+  from {
+    transform: rotateZ(-5deg); }
+  to {
+    transform: rotateZ(5deg); } }
+
+#arm {
+  animation: arm 1.5s infinite linear;
+  transform-origin: bottom;
+  transform-box: fill-box; }
+
+@keyframes arm {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }

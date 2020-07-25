@@ -1,0 +1,51 @@
+.intro {
+  width: 90%;
+  min-height: 85vh;
+  margin: auto;
+  flex-wrap: wrap;
+  @include flex(space-between, center, row);
+
+  &__text {
+    width: 50%;
+  }
+
+  &__images {
+    width: 44%;
+  }
+
+  &__name {
+    font-size: 4rem;
+    padding-top: 2rem;
+  }
+
+  &__job {
+    font-size: 3rem;
+    padding: 2rem 0;
+  }
+  &__desc {
+    width: 90%;
+    padding-top: 1rem;
+    color: $gray-text;
+  }
+
+  &__social {
+    padding-top: 2.5rem;
+  }
+
+  &__social--github {
+    margin-right: 1.2rem;
+    width: 3.5rem;
+  }
+
+  &__social--linkedin {
+    width: 3.5rem;
+  }
+
+  &__splash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
