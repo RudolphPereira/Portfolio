@@ -79,17 +79,17 @@ ul {
   align-items: center;
   flex-direction: row; }
   .intro__text {
-    width: 50%; }
+    width: 56%; }
   .intro__images {
     width: 44%; }
   .intro__name {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-top: 2rem; }
   .intro__job {
     font-size: 3rem;
     padding: 2rem 0; }
   .intro__desc {
-    width: 90%;
+    width: 80%;
     padding-top: 1rem;
     color: #2c2c2c; }
   .intro__social {
@@ -138,3 +138,75 @@ ul {
     transform: rotateZ(0deg); }
   to {
     transform: rotateZ(360deg); } }
+
+.contact {
+  width: 90%;
+  min-height: 75vh;
+  margin: auto; }
+  .contact__content {
+    display: flex;
+    padding: 8rem 0 0 0; }
+  .contact__details {
+    flex: 1 1 20rem; }
+  .contact__title {
+    margin-bottom: 3rem; }
+  .contact__list {
+    display: flex;
+    justify-content: 0;
+    align-items: center;
+    flex-direction: row; }
+  .contact__img {
+    width: 3rem;
+    margin: 0 1.5rem 0 2.5rem; }
+  .contact__item {
+    margin: 1.5rem 0; }
+  .contact__forms {
+    flex: 1 1 20rem; }
+  .contact__form {
+    display: flex;
+    justify-content: 0;
+    align-items: 0;
+    flex-direction: column; }
+    .contact__form .input {
+      width: 45%;
+      padding: 1rem 2rem;
+      background-color: #323333;
+      color: white;
+      border: none;
+      margin: 1rem 1rem 1rem 0;
+      outline: none; }
+  .contact__textarea {
+    width: 92.3%;
+    height: 18rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: #323333;
+    color: white;
+    border: none;
+    outline: none;
+    resize: vertical;
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif; }
+  .contact__button {
+    width: 20%;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    background-color: #323333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; }
+  .contact__button:hover {
+    background-color: white;
+    color: #323333;
+    border: 2px solid #323333; }
+
+.footer {
+  min-height: 10vh;
+  width: 90%;
+  margin: auto;
+  color: #2c2c2c;
+  display: flex;
+  justify-content: 0;
+  align-items: center;
+  flex-direction: 0; }

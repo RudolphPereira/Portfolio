@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../style/style.css" />
+    <title>Rudolph Pereira - Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo--container">
+          <img
+            src="../icons/code.svg"
+            alt="code-img"
+            class="nav__logo--image"
+          />
+          <h1 class="nav__logo--title">Reira</h1>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="../index.html" class="nav__links">Home</a>
+          </li>
+          <li class="nav__items"><a href="" class="nav__links">About</a></li>
+          <li class="nav__items"><a href="" class="nav__links">Projects</a></li>
+          <li class="nav__items">
+            <a href="./contact/" class="nav__links active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="contact__content">
+        <div class="contact__details">
+          <h2 class="contact__title">Get In Touch With Me Directly...</h2>
+
+          <div class="contact__list">
+            <img src="../icons/phone.svg" alt="phone" class="contact__img" />
+            <p class="contact__item">+91 9819468208</p>
+          </div>
+
+          <div class="contact__list">
+            <img src="../icons/email.svg" alt="email" class="contact__img" />
+            <p class="contact__item">rudolph.pereira93@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact__forms">
+          <h2 class="contact__title">Or Try Out This Form I Built...</h2>
+          <form
+            action="https://formspree.io/meqrvpay"
+            method="POST"
+            class="contact__form"
+          >
+            <div class="contact__nameandemail--container">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="contact__name input"
+                required
+              />
+
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Email"
+                class="contact__email input"
+                required
+              />
+            </div>
+
+            <div class="contact__textarea--container">
+              <textarea
+                class="contact__textarea"
+                type="text"
+                name="message"
+                placeholder="Message"
+                spellcheck="false"
+                required
+              ></textarea>
+            </div>
+
+            <button class="contact__button" value="Send">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">Created by Rudolph Pereira, &copy; 2020</p>
+    </footer>
+  </body>
+</html>

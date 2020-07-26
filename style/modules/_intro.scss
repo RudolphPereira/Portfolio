@@ -6,7 +6,7 @@
   @include flex(space-between, center, row);
 
   &__text {
-    width: 50%;
+    width: 56%;
   }
 
   &__images {
@@ -14,7 +14,7 @@
   }
 
   &__name {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-top: 2rem;
   }
 
@@ -23,7 +23,7 @@
     padding: 2rem 0;
   }
   &__desc {
-    width: 90%;
+    width: 80%;
     padding-top: 1rem;
     color: $gray-text;
   }
