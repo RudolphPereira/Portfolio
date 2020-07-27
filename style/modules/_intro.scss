@@ -1,21 +1,39 @@
 .intro {
-  width: 90%;
+  width: 95%;
   min-height: 85vh;
-  margin: auto;
+  margin: 0 0 0 5%;
   flex-wrap: wrap;
   @include flex(space-between, center, row);
-
-  &__text {
-    width: 56%;
+  @include iphone {
+    width: 90%;
+    margin: 0 5% 0 5%;
   }
 
+  &__text {
+    flex: 2 1 40rem;
+    @include ipad {
+      flex: 1 1 40rem;
+    }
+  }
   &__images {
-    width: 44%;
+    flex: 1 1 40rem;
+  }
+
+  &__me {
+    @include ipad {
+      width: 80%;
+    }
+    @include iphone {
+      height: 20%;
+    }
   }
 
   &__name {
     font-size: 4.5rem;
     padding-top: 2rem;
+    @include iphone {
+      padding-top: 4rem;
+    }
   }
 
   &__job {
@@ -26,10 +44,16 @@
     width: 80%;
     padding-top: 1rem;
     color: $gray-text;
+    @include ipad {
+      width: 100%;
+    }
   }
 
   &__social {
     padding-top: 2.5rem;
+    @include iphone {
+      margin-bottom: 2rem;
+    }
   }
 
   &__social--github {
@@ -47,5 +71,8 @@
     right: 0;
     height: 100%;
     z-index: -1;
+    @include ipad {
+      display: none;
+    }
   }
 }

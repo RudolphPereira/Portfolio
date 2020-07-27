@@ -1,6 +1,9 @@
 .header {
   width: 95%;
   margin: 0 0 0 auto;
+  @include iphone {
+    width: 100%;
+  }
 }
 
 .nav {
@@ -8,10 +11,21 @@
   width: 60%;
   min-height: 15vh;
   flex-wrap: wrap;
+  @include ipad {
+    width: 90%;
+  }
+  @include iphone {
+    width: 100%;
+  }
 
   &__logo--container {
     @include flex(flex-start, center, row);
     flex: 1 1 10rem;
+    @include iphone {
+      @include flex(center, center, column);
+      flex: 1 1 20rem;
+      margin-top: 2rem;
+    }
   }
 
   &__logo--title {
@@ -21,6 +35,14 @@
   &__list {
     @include flex(space-around, center, row);
     flex: 1 1 20rem;
+    @include ipad {
+      flex: 1 1 10rem;
+    }
+    @include iphone {
+      flex: 1 1 70rem;
+      margin: 2rem 0;
+    }
+
     .active {
       background: $gray-text;
       color: white;
