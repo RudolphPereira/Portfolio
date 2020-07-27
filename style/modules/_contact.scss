@@ -5,11 +5,12 @@
 
   &__content {
     display: flex;
+    flex-wrap: wrap;
     padding: 8rem 0 0 0;
   }
 
   &__details {
-    flex: 1 1 20rem;
+    flex: 1 1 50rem;
   }
 
   &__title {
@@ -30,7 +31,7 @@
   }
 
   &__forms {
-    flex: 1 1 20rem;
+    flex: 1 1 50rem;
   }
 
   &__form {
