@@ -7,6 +7,9 @@
     display: flex;
     flex-wrap: wrap;
     padding: 8rem 0 0 0;
+    @include iphone {
+      padding: 2rem 0 0 0;
+    }
   }
 
   &__details {
@@ -15,6 +18,10 @@
 
   &__title {
     margin-bottom: 3rem;
+    @include ipad {
+      margin-top: 3rem;
+      margin-right: 1rem;
+    }
   }
 
   &__list {

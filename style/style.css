@@ -202,10 +202,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding: 8rem 0 0 0; }
+    @media screen and (max-width: 657px) {
+      .contact__content {
+        padding: 2rem 0 0 0; } }
   .contact__details {
     flex: 1 1 50rem; }
   .contact__title {
     margin-bottom: 3rem; }
+    @media screen and (max-width: 1266px) {
+      .contact__title {
+        margin-top: 3rem;
+        margin-right: 1rem; } }
   .contact__list {
     display: flex;
     justify-content: 0;
