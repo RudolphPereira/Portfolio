@@ -196,7 +196,7 @@ ul {
     transform: rotateZ(360deg); } }
 
 body {
-  animation: opening 0.5s ease-in-out; }
+  animation: opening 0.3s ease-in-out; }
 
 @keyframes opening {
   from {
