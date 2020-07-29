@@ -222,7 +222,7 @@ body {
     @media screen and (max-width: 657px) {
       .contact__title {
         margin-top: 4rem;
-        margin-right: 1rem; } }
+        margin-right: 1.5rem; } }
   .contact__list {
     display: flex;
     justify-content: 0;
