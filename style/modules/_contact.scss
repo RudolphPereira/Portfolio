@@ -18,8 +18,8 @@
 
   &__title {
     margin-bottom: 3rem;
-    @include ipad {
-      margin-top: 4rem;
+    @include iphone {
+      margin-top: 7rem;
       margin-right: 1rem;
     }
   }
@@ -67,6 +67,9 @@
     resize: vertical;
     font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
+    @include iphone {
+      width: 92.5%;
+    }
   }
 
   &__button {

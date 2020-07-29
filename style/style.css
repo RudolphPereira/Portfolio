@@ -219,9 +219,9 @@ body {
     flex: 1 1 50rem; }
   .contact__title {
     margin-bottom: 3rem; }
-    @media screen and (max-width: 1266px) {
+    @media screen and (max-width: 657px) {
       .contact__title {
-        margin-top: 4rem;
+        margin-top: 7rem;
         margin-right: 1rem; } }
   .contact__list {
     display: flex;
@@ -262,6 +262,9 @@ body {
     resize: vertical;
     font-size: 1.8rem;
     font-family: "Montserrat", sans-serif; }
+    @media screen and (max-width: 657px) {
+      .contact__textarea {
+        width: 92.5%; } }
   .contact__button {
     width: 20%;
     margin: 1rem 0;
