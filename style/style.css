@@ -125,7 +125,7 @@ ul {
   @media screen and (max-width: 657px) {
     .intro__me {
       height: 20%;
-      margin-bottom: 6rem; } }
+      margin-bottom: 8rem; } }
   .intro__name {
     font-size: 4.5rem;
     padding-top: 2rem; }
@@ -246,7 +246,7 @@ body {
       background-color: #323333;
       color: white;
       border: none;
-      border-radius: none;
+      border-radius: 0;
       margin: 1rem 1rem 1rem 0;
       outline: none; }
   .contact__textarea {
@@ -257,7 +257,7 @@ body {
     background-color: #323333;
     color: white;
     border: none;
-    border-radius: none;
+    border-radius: 0;
     outline: none;
     resize: vertical;
     font-size: 1.8rem;
