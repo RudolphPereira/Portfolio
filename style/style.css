@@ -125,7 +125,7 @@ ul {
   @media screen and (max-width: 657px) {
     .intro__me {
       height: 20%;
-      margin-bottom: 8rem; } }
+      margin-bottom: 6rem; } }
   .intro__name {
     font-size: 4.5rem;
     padding-top: 2rem; }
@@ -221,7 +221,7 @@ body {
     margin-bottom: 3rem; }
     @media screen and (max-width: 657px) {
       .contact__title {
-        margin-top: 7rem;
+        margin-top: 4rem;
         margin-right: 1rem; } }
   .contact__list {
     display: flex;
