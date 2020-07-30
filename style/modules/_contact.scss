@@ -18,9 +18,11 @@
 
   &__title {
     margin-bottom: 3rem;
-    @include iphone {
+    @include ipad {
       margin-top: 4rem;
-      margin-right: 1.5rem;
+    }
+    @include iphone {
+      margin-right: 2rem;
     }
   }
 
@@ -39,6 +41,9 @@
 
   &__forms {
     flex: 1 1 50rem;
+    @include ipad {
+      flex: 1 1 46rem;
+    }
   }
 
   &__form {
@@ -64,11 +69,10 @@
     border: none;
     border-radius: 0;
     outline: none;
-    resize: vertical;
     font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
     @include iphone {
-      width: 92.9%;
+      width: 93%;
     }
   }
 

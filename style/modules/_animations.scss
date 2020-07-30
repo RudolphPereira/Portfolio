@@ -48,18 +48,3 @@
     transform: rotateZ(360deg);
   }
 }
-
-// body
-
-body {
-  animation: opening 0.3s ease-in-out;
-}
-
-@keyframes opening {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
