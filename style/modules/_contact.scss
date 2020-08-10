@@ -70,6 +70,7 @@
     border-radius: 0;
     outline: none;
     font-size: 1.8rem;
+    resize: vertical;
     font-family: "Montserrat", sans-serif;
     @include iphone {
       width: 93%;
