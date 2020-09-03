@@ -1,0 +1,75 @@
+.about {
+  width: 95%;
+  min-height: 85vh;
+  margin: 0 0 0 5%;
+  @include flex(space-between, center, column);
+
+  &__desc {
+    @include flex(space-around, center, 0);
+    flex-wrap: wrap;
+    padding-top: 1rem;
+  }
+
+  &__text {
+    text-align: justify;
+    text-align-last: auto;
+    flex: 2 1 50rem;
+    @include ipad {
+      margin: 0 5% 0 0;
+    }
+  }
+
+  &__desc p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 1.5rem 0rem;
+  }
+
+  &__desc a {
+    color: #e178aa;
+    font-weight: 500;
+  }
+
+  &__image--container {
+    flex: 2 1 50rem;
+    @include ipad {
+      margin: 0 5% 0 0;
+    }
+  }
+
+  &__img {
+    margin-left: 3rem;
+    @include ipad {
+      width: 95%;
+      margin-left: 0rem;
+    }
+    @include iphone {
+      height: 10%;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__skills {
+    width: 100%;
+    @include flex(center, center, 0);
+    flex-wrap: wrap;
+    margin: 0 5% 0 0;
+  }
+
+  &__skills > div {
+    margin: 4rem 2rem;
+  }
+
+  &__skills > div > img {
+    width: 9.5rem;
+    height: 9.5rem;
+    @include ipad {
+      width: 9rem;
+      height: 9rem;
+    }
+    @include iphone {
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+}
