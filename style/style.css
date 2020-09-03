@@ -362,8 +362,7 @@ ul {
         margin-left: 0rem; } }
     @media screen and (max-width: 657px) {
       .about__img {
-        height: 10%;
-        margin-bottom: 5rem; } }
+        height: 10%; } }
   .about__skills {
     width: 100%;
     display: flex;
