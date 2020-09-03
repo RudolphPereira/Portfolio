@@ -154,8 +154,8 @@ ul {
     width: 3.5rem; }
   .intro__splash {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0%;
+    right: 0%;
     height: 100%;
     z-index: -1; }
     @media screen and (max-width: 1266px) {
@@ -338,7 +338,7 @@ ul {
   .about__text {
     text-align: justify;
     text-align-last: auto;
-    flex: 2 1 50rem; }
+    flex: 1 1 50rem; }
     @media screen and (max-width: 1266px) {
       .about__text {
         margin: 0 5% 0 0; } }
@@ -350,7 +350,7 @@ ul {
     color: #e178aa;
     font-weight: 500; }
   .about__image--container {
-    flex: 2 1 50rem; }
+    flex: 1 1 50rem; }
     @media screen and (max-width: 1266px) {
       .about__image--container {
         margin: 0 5% 0 0; } }

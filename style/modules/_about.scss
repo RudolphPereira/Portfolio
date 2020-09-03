@@ -13,7 +13,7 @@
   &__text {
     text-align: justify;
     text-align-last: auto;
-    flex: 2 1 50rem;
+    flex: 1 1 50rem;
     @include ipad {
       margin: 0 5% 0 0;
     }
@@ -31,7 +31,7 @@
   }
 
   &__image--container {
-    flex: 2 1 50rem;
+    flex: 1 1 50rem;
     @include ipad {
       margin: 0 5% 0 0;
     }
