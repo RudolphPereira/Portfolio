@@ -124,7 +124,8 @@ ul {
       width: 80%; } }
   @media screen and (max-width: 657px) {
     .intro__me {
-      height: 20%; } }
+      height: 20%;
+      margin-bottom: 2rem; } }
   .intro__name {
     font-size: 4.5rem;
     padding-top: 2rem; }
