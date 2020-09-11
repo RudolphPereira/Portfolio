@@ -441,36 +441,25 @@ ul {
   padding-bottom: 1rem; }
 
 .video4 {
-  width: 30%;
+  width: 35%;
   transition: all 0.4s ease; }
   @media screen and (max-width: 657px) {
     .video4 {
       margin: 2rem;
-      width: 80%; } }
+      width: 70%; } }
 
 .video4:hover {
   box-shadow: 4px 4px 6px lightgrey; }
 
 .video5 {
-  width: 30%;
+  width: 35%;
   transition: all 0.4s ease; }
   @media screen and (max-width: 657px) {
     .video5 {
       margin: 2rem;
-      width: 80%; } }
+      width: 70%; } }
 
 .video5:hover {
-  box-shadow: 4px 4px 6px lightgrey; }
-
-.video6 {
-  width: 30%;
-  transition: all 0.4s ease; }
-  @media screen and (max-width: 657px) {
-    .video6 {
-      margin: 2rem;
-      width: 80%; } }
-
-.video6:hover {
   box-shadow: 4px 4px 6px lightgrey; }
 
 .footer {
