@@ -60,11 +60,11 @@
   }
 
   &__skills > div > img {
-    width: 9.5rem;
-    height: 9.5rem;
+    width: 9rem;
+    height: 9rem;
     @include ipad {
-      width: 9rem;
-      height: 9rem;
+      width: 8rem;
+      height: 8rem;
     }
     @include iphone {
       width: 7rem;
