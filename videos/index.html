@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../icons/code_browser.svg" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Videos</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo--container">
+          <img
+            src="../icons/code.svg"
+            alt="code-img"
+            class="nav__logo--image"
+          />
+          <h3 class="nav__logo--title">Reira</h3>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="../home/" class="nav__links">Home</a>
+          </li>
+          <li class="nav__items">
+            <a href="../about/" class="nav__links">About</a>
+          </li>
+          <li class="nav__items">
+            <a href="../projects/" class="nav__links">Projects</a>
+          </li>
+          <li class="nav__items">
+            <a href="../contact/" class="nav__links">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="video">
+      <div class="video__container">
+        <div class="video__series">
+          <div class="video__content">
+            <video
+              preload="metadata"
+              loop
+              controls
+              disablePictureInPicture
+              controlsList="nodownload"
+              src="./One.mp4#t=0.1"
+              class="video__display"
+            ></video>
+          </div>
+          <div class="video__text__content">
+            <h3 class="video__text__title">
+              When I am bored, I like to teleport to different places!
+            </h3>
+          </div>
+        </div>
+
+        <div class="video__series video__reverse">
+          <div class="video__text__content video__reverse">
+            <h3 class="video__text__title">
+              Or sometimes, the end of the month calls for doubling up cash.
+            </h3>
+          </div>
+          <div class="video__content video__reverse">
+            <video
+              preload="metadata"
+              loop
+              controls
+              disablePictureInPicture
+              controlsList="nodownload"
+              src="./Two.mp4#t=0.1"
+              class="video__display"
+            ></video>
+          </div>
+        </div>
+
+        <div class="video__series">
+          <div class="video__content">
+            <video
+              preload="metadata"
+              loop
+              controls
+              disablePictureInPicture
+              controlsList="nodownload"
+              src="./Three.mp4#t=0.1"
+              class="video__display"
+            ></video>
+          </div>
+          <div class="video__text__content">
+            <h3 class="video__text__title">
+              Did I mention, I once met someone like Eleven from Stranger
+              Things!
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">Created by Rudolph Pereira, &copy; 2020</p>
+    </footer>
+  </body>
+</html>

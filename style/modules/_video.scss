@@ -1,90 +1,45 @@
-.basic {
-  padding: 1rem;
-  margin: 0.8rem;
-  border: 1px solid #d573ab;
-  outline: none;
-  cursor: pointer;
-}
+.video {
+  width: 90%;
+  padding: 0.5rem 0;
+  margin: auto;
 
-.flex {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @include iphone {
-    flex-direction: column;
+  &__series {
+    @include flex(center, center, 0);
+    flex-wrap: wrap;
   }
-}
 
-.video1 {
-  width: 45%;
-  transition: all 0.4s ease;
-  @include iphone {
-    margin: 2rem;
-    padding-top: 2rem;
-    width: 80%;
+  &__content {
+    margin: 1rem;
+    flex: 2 1 40rem;
   }
-}
 
-.video1:hover {
-  box-shadow: 4px 4px 6px lightgrey;
-}
-
-.video2 {
-  width: 45%;
-  transition: all 0.4s ease;
-  @include iphone {
-    margin: 2rem;
-    width: 80%;
+  &__text__content {
+    flex: 1 1 40rem;
   }
-}
 
-.video2:hover {
-  box-shadow: 4px 4px 6px lightgrey;
-}
-
-.video__seriesTwo {
-  padding: 2rem 0rem;
-}
-
-.video3 {
-  width: 60%;
-  transition: all 0.4s ease;
-  @include iphone {
-    width: 80%;
+  &__text__title {
+    text-align: center;
+    color: $gray-text;
+    padding: 1.5rem;
   }
-}
 
-.video3:hover {
-  box-shadow: 4px 4px 6px lightgrey;
-}
-
-.video__seriesThree {
-  padding-bottom: 1rem;
-}
-
-.video4 {
-  width: 35%;
-  transition: all 0.4s ease;
-  @include iphone {
-    margin: 2rem;
-    width: 70%;
+  &__display {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
   }
-}
 
-.video4:hover {
-  box-shadow: 4px 4px 6px lightgrey;
-}
-
-.video5 {
-  width: 35%;
-  transition: all 0.4s ease;
-  @include iphone {
-    margin: 2rem;
-    width: 70%;
+  &__display:hover {
+    box-shadow: 2px 2px 4px lightgrey;
   }
-}
 
-.video5:hover {
-  box-shadow: 4px 4px 6px lightgrey;
+  &__reverse {
+    @include reverse {
+      flex-direction: column-reverse;
+      flex: 0 0 0rem;
+    }
+  }
 }
