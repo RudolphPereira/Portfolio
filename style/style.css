@@ -288,7 +288,7 @@ ul {
   min-height: 100vh; }
   .projects__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -298,7 +298,7 @@ ul {
   width: 30%;
   margin: 2rem 0rem;
   background: white;
-  border: 0.5px solid lightgrey;
+  border: 1px solid lightgrey;
   transition: all 0.4s ease; }
   @media screen and (max-width: 1266px) {
     .project {
@@ -310,14 +310,17 @@ ul {
     box-shadow: 2px 2px 4px lightgrey;
     border: 1px solid darkgrey; }
   .project__image--container {
-    background: black; }
-  .project-img {
+    background-color: #222; }
+  .project-video, .project-img {
     width: 100%;
     height: 100%;
-    display: block;
     opacity: 0.8;
-    transition: all 0.2s ease-in; }
+    display: block;
+    transition: all 0.2s ease-in;
+    object-fit: cover; }
   .project:hover .project-img {
+    opacity: 1; }
+  .project:hover .project-video {
     opacity: 1; }
   .project__text-content, .project__links {
     padding: 1rem; }
