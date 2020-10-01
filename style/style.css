@@ -291,8 +291,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2rem 0 0 0; }
+    flex-wrap: wrap; }
 
 .project {
   width: 30%;
@@ -311,15 +310,13 @@ ul {
     border: 1px solid darkgrey; }
   .project__image--container {
     background-color: #222; }
-  .project-video, .project-img {
+  .project-video {
     width: 100%;
     height: 100%;
     opacity: 0.8;
     display: block;
     transition: all 0.2s ease-in;
     object-fit: cover; }
-  .project:hover .project-img {
-    opacity: 1; }
   .project:hover .project-video {
     opacity: 1; }
   .project__text-content, .project__links {
