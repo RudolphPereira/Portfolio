@@ -20,11 +20,12 @@
   }
   margin: 2rem 0rem;
   background: white;
-  border: 1px solid lightgrey;
+  border: 0.5px solid lightgrey;
   transition: all 0.4s ease;
 
   &:hover {
     box-shadow: 2px 2px 4px lightgrey;
+    border: 1px solid darkgrey;
   }
 
   &__image--container {
@@ -36,7 +37,7 @@
     height: 100%;
     display: block;
     opacity: 0.8;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in;
   }
 
   &:hover &-img {
