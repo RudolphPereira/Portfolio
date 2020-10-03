@@ -2,7 +2,7 @@
   width: 95%;
   min-height: 85vh;
   margin: 0 0 0 5%;
-  @include flex(space-between, center, column);
+  @include flex(space-evenly, center, column);
 
   &__desc {
     @include flex(space-around, center, 0);

@@ -5,7 +5,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f6f7fa; }
+  background-color: #f6f7fa;
+  max-width: 1500px;
+  margin: auto; }
 
 html {
   font-size: 62.5%; }
@@ -335,7 +337,7 @@ ul {
   min-height: 85vh;
   margin: 0 0 0 5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column; }
   .about__desc {
