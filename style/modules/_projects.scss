@@ -23,6 +23,7 @@
   transition: all 0.4s ease;
 
   &:hover {
+    transform: translate(0, -15px);
     box-shadow: 2px 2px 4px lightgrey;
     border: 1px solid darkgrey;
   }
